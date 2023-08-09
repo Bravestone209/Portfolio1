@@ -780,7 +780,7 @@ footer{
         box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
     }  
 
-@media(max-width:930px){
+@media(max-width:400px){
   
 
     .section2-certificates{
@@ -799,13 +799,13 @@ footer{
     }
 
     .skills-content{
-        font-size: 15px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 25px;
         /* margin-top:20vh; */
         /* margin-bottom:10vh; */
     }
 
-
+}
 
 }
 
