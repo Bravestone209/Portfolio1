@@ -780,8 +780,54 @@ footer{
         box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
     }  
 
+@media(max-width:930px){
+  
+
+    .section2-certificates{
+        font-size: 40px;
+        margin-top: 20vh ;
+        margin-bottom:10vh;
+    
+    }
+
+
+
+    .section4-skill{
+        font-size: 40px;
+        margin-top:20vh;
+        margin-bottom:10vh;
+    }
+
+    .skills-content{
+        font-size: 15px;
+        line-height: 30px;
+        /* margin-top:20vh; */
+        /* margin-bottom:10vh; */
+    }
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Animation */
