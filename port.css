@@ -854,20 +854,30 @@ section.show-animate .animate,section.show-animate .animate1,section.show-animat
 
 .sec-1 .animate{
     transform:translateX(-100%);
+    transition: all 1s linear;
+
+
+
 }
 
 .sec-1.show-animate .animate{
     transform:translateX(0);
+    transition: all 1s linear;
+
 }
 
 
 
 .sec-2 .animate{
     transform:scale(0.6);
+    transition: all 1s linear;
+
 }
 
 .sec-2.show-animate .animate{
     transform:translateX(0);
+    transition: all 1s linear;
+
 }
 
 
@@ -875,10 +885,14 @@ section.show-animate .animate,section.show-animate .animate1,section.show-animat
 
 .sec-3 .animate{
     transform:translateX(-100%);
+    transition: all 1s linear;
+
 }
 
 .sec-3.show-animate .animate{
     transform:translateX(0);
+    transition: all 1s linear;
+
 }
 
 .sec-3 .animate1{
@@ -904,10 +918,14 @@ section.show-animate .animate,section.show-animate .animate1,section.show-animat
 
 .sec-3 .animate-scale{
     transform:scale(0.8);
+    transition: all 1s linear;
+
 }
 
 .sec-3.show-animate .animate-scale{
     transform:translateX(0);
+    transition: all 1s linear;
+
 }
 
 
@@ -919,19 +937,27 @@ section.show-animate .animate,section.show-animate .animate1,section.show-animat
 
 .sec-4 .animate{
     transform:translateX(-100%);
+    transition: all 1s linear;
+
 }
 
 .sec-4.show-animate .animate{
     transform:translateX(0);
+    transition: all 1s linear;
+
 }
 
 
 .sec-4 .animate-top{
     transform:translateY(100%);
+    transition: all 1s linear;
+
 }
 
 .sec-4.show-animate .animate-top{
     transform:translateY(0);
+    transition: all 1s linear;
+
 }
 
 
