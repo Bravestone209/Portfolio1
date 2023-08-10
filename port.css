@@ -840,13 +840,13 @@ footer{
 
 /* Animation */
 
-section .animate,.animate1{
+section .animate,.animate1,.animate-right,.animate-scale,.animate-top{
     transition:1s;
     opacity: 0;
     filter: blur(5px);
 }
 
-section.show-animate .animate,section.show-animate .animate1{
+section.show-animate .animate,section.show-animate .animate1,section.show-animate .animate-right,section.show-animate .animate-scale,section.show-animate .animate-top{
     opacity: 10;
     filter: blur(0);
 }
@@ -883,11 +883,35 @@ section.show-animate .animate,section.show-animate .animate1{
 
 .sec-3 .animate1{
     transform:translateZ(-100%);
+    transition: all 1s linear;
 }
 
 .sec-3.show-animate .animate1{
     transform:translateZ(0);
+    transition: all 1s linear;
 }
+
+.sec-3 .animate-right{
+    transform:translateX(100%);
+    transition: all 1s linear;
+}
+
+.sec-3.show-animate .animate-right{
+    transform:translateX(0);
+    transition: all 1s linear;
+}
+
+
+.sec-3 .animate-scale{
+    transform:scale(0.8);
+}
+
+.sec-3.show-animate .animate-scale{
+    transform:translateX(0);
+}
+
+
+
 
 
 
@@ -899,6 +923,15 @@ section.show-animate .animate,section.show-animate .animate1{
 
 .sec-4.show-animate .animate{
     transform:translateX(0);
+}
+
+
+.sec-4 .animate-top{
+    transform:translateY(100%);
+}
+
+.sec-4.show-animate .animate-top{
+    transform:translateY(0);
 }
 
 
