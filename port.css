@@ -11,6 +11,8 @@
 
 html{
     background: linear-gradient(to bottom,cornflowerblue,rgb(175, 189, 214),cornflowerblue);
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
 }
 
 /* For footer */
@@ -74,11 +76,33 @@ body{
 
 
 
+.go-top-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background: rgb(97, 117, 153);
+    border: 1px solid #333;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+    margin-top: 2px;
+  }
+
+  
+
+
 
 nav{
     width: 100%;
     height: 50px;
     background-color: cornflowerblue;
+    position: sticky;
+
 }
 
 label{
@@ -91,6 +115,7 @@ label{
 ul{
     text-decoration: none;
     float: right;
+
 
 }
 
@@ -160,9 +185,10 @@ h1{
         background-color: cornflowerblue;
 
         position: fixed;
-        top: 50px;
+        top: 100px;
         left: -100%;
         transition: 1s;
+
 
     }
     
@@ -171,6 +197,8 @@ h1{
         text-align: center;
         margin:10px auto;
         line-height: 50px;
+
+
     }
 
     #checkbtn{
@@ -728,7 +756,9 @@ footer{
         box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
     }  
 
-
+    .go-top-btn {
+        display: none;
+        }
 
 
 }
@@ -753,7 +783,9 @@ footer{
         box-shadow: 10px 10px 20px 5px rgb(128, 122, 122);
         box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
     }  
-
+    .go-top-btn {
+        display: none;
+        }
 
 }
 
@@ -778,7 +810,14 @@ footer{
         padding: 10px 30px;
         box-shadow: 10px 10px 20px 5px rgb(128, 122, 122);
         box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
-    }  
+    }
+    .go-top-btn {
+        display: none;
+        }
+          
+        
+}
+      
 
 @media(max-width:400px){
   
@@ -813,9 +852,16 @@ footer{
         /* margin-bottom:10vh; */
     }
 
-}
+    .go-top-btn{
+        display: none;
+        }
 
 }
+
+
+
+
+
 
 
 
@@ -930,13 +976,8 @@ section.show-animate .animate,section.show-animate .animate1,section.show-animat
 
 
 
-
-
-
-
-
 .sec-4 .animate{
-    transform:translateX(-100%);
+    transform:scale(1.1);
     transition: all 1s linear;
 
 }
@@ -949,15 +990,25 @@ section.show-animate .animate,section.show-animate .animate1,section.show-animat
 
 
 .sec-4 .animate-top{
-    transform:translateY(100%);
+    transform:scale(1.2);
     transition: all 1s linear;
 
 }
 
 .sec-4.show-animate .animate-top{
-    transform:translateY(0);
+    transform:translateX(0);
     transition: all 1s linear;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
