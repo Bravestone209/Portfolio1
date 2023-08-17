@@ -267,3 +267,47 @@ html{
 
 
 
+
+@media (max-width:400px){
+    .main-box{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 315px;
+        margin-left:5vw;
+        box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+        transition: all 0.5s linear;
+        overflow-x: hidden;
+
+
+    
+    }
+
+    .values{
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+        text-shadow: 4px 4px 5px rgb(125, 100, 125);
+        margin-left: 20px;
+        padding: 5px 0px;
+    }
+
+    
+.heading{
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(125, 100, 125);
+    color: black;
+    font-size: 50px;
+
+
+}
+
+
+}
+
+
+
