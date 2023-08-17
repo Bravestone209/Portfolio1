@@ -16,8 +16,16 @@ html{
     margin: 100px auto;
     /* margin-left:20vw; */
     box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+    opacity: 0;
 
 }
+
+.main-box.animate__animated{
+    opacity: 1;
+
+}
+
+
 
 .image{
     margin-top:30px;
