@@ -56,7 +56,7 @@ $(document).ready(function(){
 
 $(".home-heading").waypoint(function(){
   console.log("Top")
-  $(".home-heading").addClass('animate__animated animate__bounce')
+  $(".home-heading").addClass('animate__animated animate__zoomIn')
 },{offset:'200px'})
 
 
@@ -93,6 +93,13 @@ $(".home-heading").waypoint(function(){
 //     console.log("Top")
 //     $(".project-1").addClass('animate__animated animate__zoomInUp')
 // },{offset:'500px'})
+
+
+
+  $(".main-box").waypoint(function(){
+    console.log("Top")
+    $(".main-box").addClass('animate__animated animate__zoomInUp')
+},{offset:'100px'})
 
 
 
