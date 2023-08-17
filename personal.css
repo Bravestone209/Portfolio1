@@ -109,7 +109,7 @@ html{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 420px;
         margin-left:5vw;
         box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
         transition: all 0.5s linear;
@@ -121,6 +121,129 @@ html{
 
     .values{
         font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+        text-shadow: 4px 4px 5px rgb(125, 100, 125);
+        margin-left: 20px;
+    }
+
+    
+.heading{
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(125, 100, 125);
+    color: black;
+    font-size: 50px;
+
+
+}
+
+@media (max-width:650px){
+    .main-box{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 420px;
+        margin-left:5vw;
+        box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+        transition: all 0.5s linear;
+        overflow-x: hidden;
+
+
+    
+    }
+
+    .values{
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+        text-shadow: 4px 4px 5px rgb(125, 100, 125);
+        margin-left: 20px;
+    }
+
+    
+.heading{
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(125, 100, 125);
+    color: black;
+    font-size: 50px;
+
+}
+}
+
+@media (max-width:500px){
+    .main-box{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        margin-left:12vw;
+        box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+        transition: all 0.5s linear;
+        overflow-x: hidden;
+
+
+    
+    }
+
+    .values{
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+        text-shadow: 4px 4px 5px rgb(125, 100, 125);
+        margin-left: 20px;
+    }
+
+    
+.heading{
+    text-align: center;
+    text-shadow: 4px 4px 5px rgb(125, 100, 125);
+    color: black;
+    font-size: 50px;
+
+
+}
+
+
+.image img{
+    height: 300px;
+    clip-path: circle(35% at 50% 50%);
+
+}
+
+}
+}
+
+
+
+@media (max-width:420px){
+    .main-box{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-right:2vw;
+        box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+        transition: all 0.5s linear;
+        overflow-x: hidden;
+
+
+    
+    }
+
+    .values{
+        font-size: 22px;
         display: flex;
         flex-direction: column;
         justify-content: center;
