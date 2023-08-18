@@ -677,7 +677,12 @@ footer{
 
 .footer-p{
     margin: 10px;
+    font-size: 18px;
     color: blanchedalmond
+}
+
+.footer-p:hover{
+    color: black
 }
 
 
