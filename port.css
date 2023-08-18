@@ -198,8 +198,8 @@ h1{
         top: 100px;
         left: -100%;
         transition: 1s;
-        /* To add gab between navbar li and main upper portion. */
-        margin-top: -50px;
+        /* To add gap between navbar li and main upper portion. */
+        margin-top: -48px;
 
 
     }
