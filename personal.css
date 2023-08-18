@@ -57,6 +57,11 @@ html{
 
 }
 
+.note{
+    text-align: center;
+
+}
+
 
 
 @media (max-width:1200px){
@@ -229,6 +234,14 @@ html{
 }
 
 }
+
+
+.note{
+    text-align: center;
+    font-size: 12px;
+    margin: 0px 20px;
+
+}
 }
 
 
@@ -269,6 +282,8 @@ html{
 
 
 }
+
+
 
 
 }
@@ -313,6 +328,15 @@ html{
 
 
 }
+
+
+.note{
+    text-align: center;
+    font-size: 10px;
+    margin: 0px 20px;
+
+}
+
 
 
 }
