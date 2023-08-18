@@ -11,6 +11,7 @@
 
 html{
     background: linear-gradient(to bottom,cornflowerblue,rgb(175, 189, 214),cornflowerblue);
+    /* background: blueviolet; */
     scroll-behavior: smooth;
     scroll-padding-top: 10vh;
 }
@@ -179,7 +180,7 @@ h1{
 }
 
 .skillschild:nth-child(even){
-    color: #747474;
+    color: #2b2b2b;
 }
 
 
@@ -197,6 +198,8 @@ h1{
         top: 100px;
         left: -100%;
         transition: 1s;
+        /* To add gab between navbar li and main upper portion. */
+        margin-top: -50px;
 
 
     }
@@ -206,6 +209,7 @@ h1{
         text-align: center;
         margin:10px auto;
         line-height: 50px;
+
 
 
     }
@@ -546,9 +550,20 @@ section{
 .project-1,.project-2{
     font-size: 20px;
     border: 1px solid black;
-    box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
     border-radius: 10px;
     margin:20px 20px;
+    box-shadow: 5px 5px 10px 3px rgb(80, 80, 80);
+    transition: all 0.5s linear;
+}
+
+.project-1:hover{
+    box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+
+}
+
+.project-2:hover{
+    box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+
 }
 
 
@@ -556,11 +571,24 @@ section{
 .certificate,.publication{
     font-size: 20px;
     border: 1px solid black;
-    box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+    box-shadow: 5px 5px 10px 3px rgb(80, 80, 80);
     border-radius: 10px;
     margin:20px 20px;
+    transition: all 0.5s linear;
     
 }
+
+.certificate:hover{
+    box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+
+}
+
+.publication:hover{
+    box-shadow: 10px 10px 20px 5px rgb(80, 80, 80);
+
+}
+
+
 
 .project-heading{
     margin-bottom: 10px;
